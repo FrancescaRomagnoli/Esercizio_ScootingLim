@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+/* general stylign*/
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: auto;
+    padding: 10%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+
+.darkbck{
+    background-color: #000000a8;
+    border-radius: 10px;
+    padding: 5%;
+  }
+
+/* header styling */
+
+header div img{
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header div h1{
+    display: block;
+    text-align: center;
+    font-size: 150%;
+    color: #00ff00;
+}
+
+/* nav styling */
+
+nav {
+    background-color: #00ff00;
+    padding: 15px;
+    margin: auto; 
+}
+
+nav div:first-child {
+    display: flex;
+    padding-right: 2px;
+    margin-left: 20%;
+}
+
+nav div:last-child {
+    display: flex;
+    padding-left: 2px;
+    margin-right: auto;
+}
+
+/* main styling */
+
+.itemname{
+    font-size: 20px;
+}
+
+.itemlocation{
+    font-size: 15px;
+}
+
+.chargestatus1 {
+    width: 350px;
+    border: 20px solid orange;
+    border-radius: 10px;
+    margin-right: 80%;
+}
+
+.chargestatus2 {
+    width: 500px;
+    border: 20px solid #00ff00;
+    border-radius: 10px;
+    margin-right: 80%;
+}
+
+.chargestatus3 {
+    width: 250px;
+    border: 20px solid red;
+    border-radius: 10px;
+    margin-right: 85%;
+}
+
+main div:first-child{
+    padding-top: 2%;
+}
